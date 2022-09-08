@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box {
+        margin: 50;
+        padding: 150px;
+        width: 500px;
+        height: 300px;
+        border: 100;
+        border-color: brown;
+        border-style: solid;
+        border-width: medium;
+        border-radius: 100px;
+        background-color: beige;
+
+    }
+
+    .Username {
+        font-size: 18pt;
+        height: 42px;
+        width: 300px;
+        border-width: medium;
+
+    }
+
+    .Password {
+        font-size: 18pt;
+        height: 42px;
+        width: 300px;
+        margin-left: 8px;
+    }
+
+    .UN {
+        margin: 50;
+    }
+
+    .Security {
+        margin-top: 80px;
+    }
+
+
+    span {
+        display: block;
+        overflow: hidden;
+        padding: 0px 4px 0px 6px;
+
+    }
+
+    label {
+        float: left;
+    }
+
+    button {
+        margin-top: 50px;
+        position: absolute;
+        font-size: 18pt;
+        height: 42px;
+        width: 300px;
+        border-width: medium;
+        height: 100;
+        width: 100;
+    }
+
+    .login {
+        position: absolute;
+        margin-top: 100 px;
+        margin-left: 100px;
+        border-radius: 50px;
+    }
+</style>
+
+<body>
+    <div class="box">
+
+        <div class="UN"> <label style="font-size: 40px;" id="inputUN" , for="Username"> Username</label>
+            <span>
+                <input class="Username" , type="text" , placeholder="Username" , class="Username">
+            </span>
+        </div>
+
+        <div class="Security">
+            <label style="font-size: 40px" , for="Password">Password</label>
+            <span>
+                <input id="Password" , type="text" , placeholder="Password" , class="Password">
+            </span>
+        </div>
+
+
+        <button class="login">Login</button>
+    </div>
+
+
+
+</body>
+
+</html>

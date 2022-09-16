@@ -1,0 +1,73 @@
+.box {
+    margin: 50;
+    padding: 150px;
+    width: 500px;
+    height: 300px;
+    border: 100;
+    border-color: brown;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 100px;
+    background-color: beige;
+}
+
+.Username {
+    font-size: medium;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #d0ebf7;
+    border-color: #4287f5;
+    padding: 5px;
+}
+
+.Password {
+    font-size: medium;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #4287f5;
+    background-color: #d0ebf7;
+    padding: 5px;
+}
+
+.UN {
+    margin: 50;
+}
+
+.Security {
+    margin-top: 80px;
+}
+
+
+span {
+    display: block;
+    overflow: hidden;
+    padding: 0px 4px 0px 6px;
+
+}
+
+label {
+    float: left;
+}
+
+button {
+    margin-top: 50px;
+    position: absolute;
+    font-size: medium;
+    height: 30px;
+    width: 150px;
+    border: 1px;
+    border-radius: 5px;
+    border-width: medium;
+    height: 100;
+    width: 100;
+    background-color: #d0ebf7;
+    padding: 5px;
+    
+}
+
+.login {
+    position: absolute;
+    margin-top: 100 px;
+    margin-left: 100px;
+    border-radius: 50px;
+}

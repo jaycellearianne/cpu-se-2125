@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mainHTML</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="main-css.css">
+</head>
+
+<body>
+    <div id="add-page-container" class="add-page-container">
+        <button id="add-btn" class="btn btn-primary" type="button" href="student-list-container"
+            data-bs-toggle="collapse" data-bs-target="#student-list-container" aria-expanded="false"
+            aria-controls="collapseExample">
+            Add
+        </button>
+        <div id="table" class="table">
+            <h5>People</h5>
+            <ul id="column" class="col"> 
+                <li>John Doe</li>          
+                <li>Jane Doe</li>     
+                <li>Mr Bond</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="collapse" id="student-list-container">
+        <div id="fill-up" class="fill-up">
+            <div class="divFirstname">
+                <label id="FrstName" class="FrstName">Firstname</label>
+                <input id="Firstname" type="text" placeholder="Firstname" class="Firstname">
+            </div>
+            <div class="divLastname">
+                <label id="LstName" class="LstName">Lastname</label>
+                <input id="Lastname" type="text" placeholder="Lastname" class="Lastname">
+            </div>
+            <div>
+                <!-- save button -->
+                <button id="save_btn" class="save_btn">Save</button>
+                <!-- cancel button -->
+                <button id="cancel_btn" class="cancel_btn">Cancel</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="addbutton.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
+</html>

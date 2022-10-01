@@ -1,0 +1,99 @@
+.container {
+  width: 500px;
+  height: 500px;
+}
+.box {
+  position: relative;
+  top: 100px;
+  width: 500px;
+  height: 500px;
+  padding: 100px;
+  border: 50;
+  border-color: rgb(251, 248, 248);
+  border-style: solid;
+  border-width: medium;
+  border-radius: 10px;
+}
+
+.Username {
+  width: 250px;
+  height: 50px;
+  margin-left: 25px;
+  font-size: medium;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: #d0ebf7;
+  border-color: #4287f5;
+  padding: 5px;
+  text-align: center;
+}
+
+.Password {
+  width: 250px;
+  height: 50px;
+  margin-left: 25px;
+  font-size: medium;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: #4287f5;
+  background-color: #d0ebf7;
+  padding: 5px;
+  text-align: center;
+}
+
+.UN {
+  margin: 50;
+}
+
+.Security {
+  margin-top: 25px;
+}
+
+span {
+  display: block;
+  overflow: hidden;
+  padding: 0px 4px 0px 6px;
+}
+
+label {
+  margin-left: 100px;
+}
+
+button {
+  font-size: medium;
+  height: 45px;
+  width: 150px;
+  border: 1px;
+  border-width: medium;
+  height: 100;
+  width: 100;
+  background-color: #1783b1;
+  padding: 4px;
+}
+
+.login {
+  position: center;
+  margin-top: 25px;
+  margin-left: 80px;
+  border-radius: 5px;
+}
+
+.forgotPass {
+  text-align: center;
+}
+
+a {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.gray {
+  position: relative;
+  top: 100px;
+  right: 100px;
+  float: bottom;
+  width: 495px;
+  height: 100px;
+  background: whitesmoke;
+  border: 5px;
+}
